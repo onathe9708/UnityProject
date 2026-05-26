@@ -20,4 +20,10 @@ public class Health : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    public int gethealth(){
+        return health;
+    }
+    public void sethealth(int chg){
+        health = chg;
+    }
 }
